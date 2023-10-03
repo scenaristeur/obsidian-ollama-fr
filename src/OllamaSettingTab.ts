@@ -38,7 +38,7 @@ export class OllamaSettingTab extends PluginSettingTab {
       temperature: undefined,
     };
 
-    new Setting(containerEl).setName("New command name").addText((text) => {
+    new Setting(containerEl).setName("Nom de la nouvelle commande").addText((text) => {
       text.setPlaceholder("e.g. Summarize selection");
       text.onChange(async (value) => {
         newCommand.name = value;
@@ -46,7 +46,7 @@ export class OllamaSettingTab extends PluginSettingTab {
     });
 
     new Setting(containerEl)
-      .setName("New command prompt")
+      .setName("Prompt de la commande")
       .addTextArea((text) => {
         text.setPlaceholder(
           "e.g. Act as a writer. Summarize the text in a view sentences highlighting the key takeaways. Output only the text and nothing else, do not chat, no preamble, get to the point."
@@ -56,7 +56,7 @@ export class OllamaSettingTab extends PluginSettingTab {
         });
       });
 
-    new Setting(containerEl).setName("New command model").addText((text) => {
+    new Setting(containerEl).setName("Model de la commande").addText((text) => {
       text.setPlaceholder("e.g. llama2");
       text.onChange(async (value) => {
         newCommand.model = value;

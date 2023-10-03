@@ -1,10 +1,10 @@
 {
-  "id": "ollama",
-  "name": "Ollama",
+  "id": "ollama-fr",
+  "name": "Ollama-fr",
   "version": "0.0.1",
   "minAppVersion": "0.15.0",
-  "description": "This is a plugin for Obsidian that enables the usage of Ollama within your notes.",
-  "author": "hinterdupfinger",
-  "authorUrl": "https://github.com/hinterdupfinger",
+  "description": "Ce plugin vous permet d'utiliser Ollama en français dans Obsidian.",
+  "author": "scenaristeur",
+  "authorUrl": "https://github.com/scenaristeur",
   "isDesktopOnly": true
 }

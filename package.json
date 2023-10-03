@@ -1,5 +1,5 @@
 {
-  "name": "obsidian-ollama",
+  "name": "obsidian-ollama-fr",
   "version": "0.0.1",
   "description": "This is a Ollama (https://ollama.ai) plugin for Obsidian (https://obsidian.md)",
   "main": "main.js",
@@ -15,7 +15,7 @@
     "plugin",
     "llama"
   ],
-  "author": "hinterdupfinger",
+  "author": "scenaristeur",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "20.6.2",

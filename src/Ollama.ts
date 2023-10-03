@@ -1,7 +1,7 @@
 import { kebabCase } from "service/kebabCase";
 import { Editor, Notice, Plugin, requestUrl } from "obsidian";
 import { OllamaSettingTab } from "OllamaSettingTab";
-import { DEFAULT_SETTINGS } from "data/defaultSettings";
+import { DEFAULT_SETTINGS } from "data/defaultSettings-fr";
 import { OllamaSettings } from "model/OllamaSettings";
 
 export class Ollama extends Plugin {
